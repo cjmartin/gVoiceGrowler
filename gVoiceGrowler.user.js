@@ -60,7 +60,8 @@ function updateCounts() {
     smsCount = counts.sms;
     missedCount = counts.missed;
     voicemailCount = counts.voicemail;
-    window.fluid.dockBadge = inboxCount > 0 ? inboxCount : "";
+    
+    badge(indexCount);
   }
   setTimeout(refresh, refreshInterval);
 }
@@ -72,6 +73,10 @@ function growl(message) {
   	priority: 3,
    	sticky: false
   });
+}
+
+function badge(count) {
+  window.fluid.dockBadge = count > 0 ?  Number(count) : null;
 }
 
 function plural(count) {
