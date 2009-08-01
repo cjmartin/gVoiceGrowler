@@ -28,6 +28,8 @@ wants to figure out what function is being called please do and let me know.
 Clicking around in the app, marking things read etc. won't be reflected in the dock badge
 until the next 30 sec update takes place.
 
+In some cases the dock badge will appear and immediately disappear. This happens to me with Fluid running webkit from Safari 3, it doesn't happen with Safari 4. 
+
 License
 -------
 
