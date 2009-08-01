@@ -11,7 +11,7 @@ Google Voice Growler is a userscript for [Google Voice](http://google.com/voice)
 Installation
 ------------
 
-Browse to this page in your Google Voice Fluid app, and [click here](http://github.com/cjmartin/gVoiceGrowler/blob/820af1591f4f8af4876954d931d0864205464a3e/gVoiceGrowler.user.js)
+Browse to this page in your Google Voice Fluid app, and [click here](http://github.com/cjmartin/gVoiceGrowler/raw/master/gVoiceGrowler.user.js)
 
 or Download the file gVoiceGrowler.user.js and drag it into your running app
 
@@ -33,7 +33,7 @@ License
 
 (The MIT License)
 
-Copyright (c) Chris Martin
+Copyright (c) [Chris Martin](http://cjmart.in)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
