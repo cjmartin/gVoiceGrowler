@@ -61,7 +61,7 @@ function updateCounts() {
     missedCount = counts.missed;
     voicemailCount = counts.voicemail;
     
-    badge(indexCount);
+    badge(inboxCount);
   }
   setTimeout(refresh, refreshInterval);
 }
