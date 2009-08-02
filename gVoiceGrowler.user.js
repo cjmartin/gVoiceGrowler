@@ -17,7 +17,7 @@ var smsCount = 0;
 var missedCount = 0;
 var voicemailCount = 0;
 
-var refreshInterval = 30000;
+var refreshInterval = 120000;
 var refreshUrl = "https://www.google.com/voice/inbox/recent/";
 var req;
 
